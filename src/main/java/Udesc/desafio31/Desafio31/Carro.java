@@ -20,6 +20,15 @@ public class Carro implements Serializable{
     
     public Carro() {}
     
+    /**
+     * 
+     * @param id
+     * @param modelo
+     * @param montadora
+     * @param cor
+     * @param km
+     * @param motor 
+     */
     public Carro(long id, String modelo, String montadora, String cor, String km, String motor) {
         this.id = id;
         this.modelo = modelo;
